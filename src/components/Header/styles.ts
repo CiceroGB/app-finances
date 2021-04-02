@@ -39,7 +39,13 @@ button {
         filter: brightness(0.9);
 
     }
+
+
     
 }
+
+img {
+        width:22rem;
+    }
 
 `;
