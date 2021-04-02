@@ -11,8 +11,17 @@ margin: 0  auto;
 
 padding: 2rem 1rem 12rem;
 display:flex;
+flex-wrap:wrap;
+gap:2rem;
 align-items: center;
 justify-content: space-between;
+
+@media (max-width: 975px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+}
 
 button {
     font-size: 1rem;
