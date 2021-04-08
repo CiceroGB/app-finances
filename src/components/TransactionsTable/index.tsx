@@ -1,7 +1,16 @@
+import { useEffect } from "react";
+import { api } from "../../services/api";
 import { Container } from "./styles";
 
 
 export function TransitionTable() {
+
+    useEffect(() => {
+        api.get('transactions')
+            .then(data => console.log(data))
+    }, []);
+
+
     return (
         <Container>
 
@@ -14,7 +23,7 @@ export function TransitionTable() {
                         <th>Data</th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr>
                         <td>Salário</td>
@@ -28,7 +37,7 @@ export function TransitionTable() {
                         <td>Fixo</td>
                         <td>20/02/2021</td>
                     </tr>
-                    
+
                 </tbody>
             </table>
 
