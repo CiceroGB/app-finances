@@ -1,13 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { api } from "../../services/api";
 import { Container } from "./styles";
 
+interface Transactions {
+    id: number;
+    title: string;
+    type: string
+    category: string
+    amount: number;
+    createdAt: string;
+}
 
 export function TransitionTable() {
+    const [transactions, setTransactions] = useState<Transactions[]>([]);
+
 
     useEffect(() => {
         api.get('transactions')
-            .then(data => console.log(data))
+            .then(response => setTransactions(response.data.transactions))
     }, []);
 
 
@@ -25,18 +35,17 @@ export function TransitionTable() {
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td>Salário</td>
-                        <td className="deposit">R$5.000</td>
-                        <td>Fixo</td>
-                        <td>20/02/2021</td>
-                    </tr>
-                    <tr>
-                        <td>Gasto </td>
-                        <td className="withdraw">-R$5.000</td>
-                        <td>Fixo</td>
-                        <td>20/02/2021</td>
-                    </tr>
+                    {transactions.map(transaction => (
+
+                        <tr key={transaction.id}>
+                            <td>{transaction.title} </td>
+                            <td className={transaction.type}>{transaction.amount}</td>
+                            <td>{transaction.category}</td>
+                            <td>{transaction.createdAt}</td>
+                        </tr>
+
+                    ))}
+
 
                 </tbody>
             </table>
