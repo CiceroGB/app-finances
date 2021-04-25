@@ -33,3 +33,9 @@ $ yarn dev
 ```
 
 The app will be at `http://localhost:3000`
+
+## License
+
+MIT License - see the LICENSE file for details.
+
+---
