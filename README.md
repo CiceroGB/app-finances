@@ -1,9 +1,4 @@
-<div align="center">
-  <img src="src/assets/logo.svg" alt="dt money logo">
-  <h1>dt money</h1>
-</div>
-
-## dt money
+<img width="245" alt="dt money" src="https://user-images.githubusercontent.com/63745509/116010408-24ecc780-a5f5-11eb-8c20-549453b41e95.png">
 
 <h4 align="center">
   dt money is a financial apllication.
