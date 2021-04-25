@@ -1,5 +1,6 @@
+<p align="center">
 <img width="245" alt="dt money" src="https://user-images.githubusercontent.com/63745509/116010408-24ecc780-a5f5-11eb-8c20-549453b41e95.png">
-
+</p>
 <h4 align="center">
   dt money is a financial apllication.
 </h4>
