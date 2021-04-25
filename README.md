@@ -1,5 +1,6 @@
 <div align="center">
   <img src="src/assets/logo.svg" alt="dt money logo">
+  <h1>dt money</h1>
 </div>
 
 ## dt money
@@ -8,7 +9,7 @@
   dt money is a financial apllication.
 </h4>
 
-<img width="1438" alt="nlw fim" src="https://user-images.githubusercontent.com/63745509/116009651-4d72c280-a5f1-11eb-9ec4-d68c7df91025.gif">
+<img width="1438" alt="nlw fim" src="https://user-images.githubusercontent.com/63745509/116010217-0afeb500-a5f4-11eb-8743-d5edafbb6a48.gif">
 
 Developed on the Ignite course by [Rocketseat](https://rocketseat.com.br/)
 
