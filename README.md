@@ -29,7 +29,7 @@ Developed on the Ignite course by [Rocketseat](https://rocketseat.com.br/)
 $ yarn
 
 # Run the web server
-$ yarn dev
+$ yarn start
 ```
 
 The app will be at `http://localhost:3000`
