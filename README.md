@@ -2,7 +2,7 @@
 <img width="245" alt="dt money" src="https://user-images.githubusercontent.com/63745509/116010408-24ecc780-a5f5-11eb-8c20-549453b41e95.png">
 </p>
 <h4 align="center">
-  dt money is a financial apllication.
+  dt money is a financial aplication.
 </h4>
 
 <img width="1438" alt="nlw fim" src="https://user-images.githubusercontent.com/63745509/116010217-0afeb500-a5f4-11eb-8743-d5edafbb6a48.gif">
